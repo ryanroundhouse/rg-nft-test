@@ -1,0 +1,20 @@
+{
+  "name": "rg-nft-test",
+  "version": "1.0.0",
+  "description": "testing a new nft",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "rg@ryangraham.ca",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.5",
+    "ethers": "^5.6.1",
+    "hardhat": "^2.9.1"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.5.0",
+    "dotenv": "^16.0.0"
+  }
+}
