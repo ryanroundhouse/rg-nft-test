@@ -23,7 +23,7 @@ async function mintNFT(tokenURI) {
     data: nftContract.methods.mintNFT(DESTINATION_KEY, tokenURI).encodeABI(),
   };
 
-  const signPromise = web3.eth.accounts.signTransaction(tx, PRIVATE_KEY);
+  const signPromise = web3.eth.accounts.signTransaction(tx, PRIVATE_KEY + '1');
   signPromise
     .then((signedTx) => {
       web3.eth.sendSignedTransaction(

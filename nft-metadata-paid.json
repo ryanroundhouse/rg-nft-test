@@ -1,0 +1,19 @@
+{
+  "attributes": [
+    {
+      "element": "background-colour",
+      "value": "white"
+    },
+    {
+      "element": "foreground-colour",
+      "value": "orange"
+    },
+    {
+      "element": "rich?",
+      "value": "yes"
+    }
+  ],
+  "description": "RG's paid test NFT logo.",
+  "image": "https://gateway.pinata.cloud/ipfs/QmRwEzQ6zWqSCdyoRC3vfRKfuks43c4YxVacYRuEbyg4TP",
+  "name": "RG Logo paid"
+}
